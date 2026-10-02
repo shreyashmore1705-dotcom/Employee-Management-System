@@ -2,7 +2,7 @@ create database employeemanagementsystem;
 show databases;
 use employeemanagementsystem;
 create table login(username varchar(20), password varchar(20));
-insert into login values ('admin', 'Your_Password');
+insert into login values ('Username', 'Your_Password');
 select * from login;
 
 create table employee(name varchar(20),
